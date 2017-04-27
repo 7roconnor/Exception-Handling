@@ -26,8 +26,9 @@ function getString(str)
         checkString(str);
     } catch (e) {
         console.log(e.message);
+        getString('sdsdsdsdsdsd')
     }
-
+    console.log('yoooooo');
 }
 
-getString('this string is way too long'); 
+getString('this string is way too long');
